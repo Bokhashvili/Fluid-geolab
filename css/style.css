@@ -1,0 +1,95 @@
+.img {
+    float: right;
+    width: 65%;
+}
+.text {
+    float:left;
+    width: 500px;
+}
+.clear {
+    clear: both;
+}
+.test {
+    display:inline-block;
+}
+/* .divider{
+    display:inline-block;
+    height:15px;
+    width: 2px;
+    background-color: red;
+    margin: 0 10px;
+} */
+.test2 {
+    display: inline-block;
+}
+.test::before {
+    content:'GEOLAB';
+    display:inline-block;
+    color:red;
+    font-size:20px;
+    text-transform:uppercase;
+}
+.test::after {
+    content:'';
+    width:2px;
+    height:20px;
+    background-color: red;
+    display:inline-block;
+    margin:0 10px;
+}
+.wraper::after {
+    content:'';
+    clear:both;
+    display:block;
+}
+.inline {
+    margin-bottom:50px;
+}
+.line {
+    background-color: red;
+    width:50px;
+    height:3px;
+    margin:20px auto;
+}
+.text-inline {
+    text-align: center;
+}
+.text-inline::after {
+    content:'';
+    background-color:red;
+    width:50px;
+    height:5px;
+    margin:20px auto;
+    display:block;
+}
+.left-wraper {
+    float:left;
+    background-color: red;
+    width:700px;
+}
+.right-wraper {
+    float:right;
+    background-color: yellow;
+    width:700px;
+}
+.div-text1 {
+    width:55% ;
+    float:left;
+}
+.image1 {
+    float:right;
+    width:40%;
+}
+.div-text2 {
+    float: right ;
+    width:55%;
+}
+.image2 {
+    float:left;
+    width:40%;
+}
+.box::after {
+    content:'';
+    clear: both;
+    display:block;
+}
